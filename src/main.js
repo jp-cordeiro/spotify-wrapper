@@ -1,21 +1,20 @@
-const search = () => {
+export const search = () => {
 
 }
 
-const searchAlbuns = () => {
+export const searchAlbuns = () => {
 
 }
 
-const searchArtists = () => {
+export const searchArtists = () => {
 
 }
 
-const searchTracks = () => {
+export const searchTracks = () => {
 
 }
 
-const searchPlalists = () => {
+export const searchPlalists = () => {
 
 }
 
-export const wrapper = { search, searchAlbuns, searchArtists, searchPlalists, searchTracks}
