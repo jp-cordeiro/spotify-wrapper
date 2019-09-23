@@ -6,19 +6,19 @@ export const search = (q,type) => {
         .then(data => data.json());
 }
 
-export const searchAlbuns = () => {
-
+export const searchAlbuns = (q) => {
+    search(q, 'album');
 }
 
-export const searchArtists = () => {
-
+export const searchArtists = (q) => {
+    search(q, 'artist');
 }
 
-export const searchTracks = () => {
-
+export const searchTracks = (q) => {
+    search(q, 'track');
 }
 
-export const searchPlalists = () => {
-
+export const searchPlaylists = (q) => {
+    search(q, 'playlist');
 }
 
